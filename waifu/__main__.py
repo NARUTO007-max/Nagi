@@ -1,6 +1,6 @@
 #__main__.py
 from pyrogram import Client, filters
-from Waifu import bot
+from waifu import bot
 from Modules import *
 
 if __name__=="__main__":
