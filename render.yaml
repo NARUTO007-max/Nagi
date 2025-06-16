@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: waifu-bot
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: MONGO_URI
+        sync: false
+      - key: MONGO_DB_NAME
+        sync: false
+      - key: ADMINS
+        sync: false
