@@ -2,10 +2,10 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Replace with your details
-BOT_USERNAME = "YourBotUsername"  # without @
-OWNER_USERNAME = "YourUsername"
-SUPPORT_CHAT = "SupportGroupUsername"
-UPDATES_CHANNEL = "UpdatesChannelUsername"
+BOT_USERNAME = "Testvmrobot"  # without @
+OWNER_USERNAME = "Uzumaki_X_Naruto_6"
+SUPPORT_CHAT = "Animeheaven_community"
+UPDATES_CHANNEL = "Bey_war_updates"
 
 @Client.on_message(filters.command("start"))
 async def start_cmd(client, message):
