@@ -10,7 +10,7 @@ UPDATES_CHANNEL = "Bey_war_updates"
 @Client.on_message(filters.command("start"))
 async def start_cmd(client, message):
     await message.reply_photo(
-        photo="https://telegra.ph/file/fdb36c8df0c11d88e3b8d.jpg",  # Change to your image
+        photo="https://files.catbox.moe/s17s6c.jpg",  # Change to your image
         caption=f"""👋 **Hey {message.from_user.mention}**\n\n🙈 Welcome to *Epic Game Bot*! Here begins your fun journey.
 
 Use the buttons below to explore or add me to your group!""",
